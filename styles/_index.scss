@@ -48,23 +48,23 @@
       font-size: 2.5rem;
     }
 
-    button {
-      border-radius: 40px;
-      padding: 0.7rem 1.5rem;
-      cursor: pointer;
-      width: 150px;
-      text-transform: uppercase;
-      border: none;
-      @include easeOut;
+    a {
+      color: inherit;
+      text-decoration: none;
 
-      &:hover {
-        background: $light-blue;
-        color: white;
-      }
+      button {
+        border-radius: 40px;
+        padding: 0.7rem 1.5rem;
+        cursor: pointer;
+        width: 150px;
+        text-transform: uppercase;
+        border: none;
+        @include easeOut;
 
-      a {
-        color: inherit;
-        text-decoration: none;
+        &:hover {
+          background: $light-blue;
+          color: white;
+        }
       }
     }
   }
