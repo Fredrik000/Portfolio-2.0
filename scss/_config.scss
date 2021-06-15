@@ -1,0 +1,10 @@
+// Variables
+$purple: #2b1055;
+$dark-purple: #1c0522;
+$light-purple: #7469b9;
+$light-blue: #6279be;
+
+// Mixins
+@mixin easeOut {
+  transition: all 0.3s ease-out;
+}
