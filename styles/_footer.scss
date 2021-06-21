@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    color: inherit;
+    background-color: white;
+    width: 150px;
+
+    &:hover,
+    &:active {
+      background-color: $light-blue;
+      color: white;
+    }
+  }
+}

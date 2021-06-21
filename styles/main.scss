@@ -4,8 +4,10 @@
 @import 'about';
 @import 'header';
 @import 'projects';
+@import 'footer';
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
@@ -13,4 +15,22 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 5em;
+  color: white;
+  font-weight: 500;
+  font-family: 'Playfair', 'Display', serif;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 40px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  text-align: center;
+
+  @include easeOut;
 }

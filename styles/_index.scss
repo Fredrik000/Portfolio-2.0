@@ -15,13 +15,6 @@
       $light-purple
     );
 
-    h2 {
-      font-size: 4em;
-      font-weight: 700;
-      margin-bottom: 2rem;
-      color: white;
-    }
-
     h3 {
       font-size: 2.5rem;
       font-weight: 600;
@@ -33,39 +26,12 @@
       -webkit-text-fill-color: transparent;
     }
 
+    h2 {
+      margin-bottom: 2rem;
+    }
+
     p {
       color: grey;
-    }
-  }
-
-  .learn-more {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-
-      button {
-        border-radius: 40px;
-        padding: 0.7rem 1.5rem;
-        cursor: pointer;
-        width: 150px;
-        text-transform: uppercase;
-        border: none;
-        @include easeOut;
-
-        &:hover {
-          background: $light-blue;
-          color: white;
-        }
-      }
     }
   }
 }

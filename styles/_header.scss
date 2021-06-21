@@ -1,4 +1,3 @@
-/* Header */
 header {
   position: absolute;
   top: 0;
@@ -19,7 +18,6 @@ header {
     letter-spacing: 2px;
   }
 
-  /* Navbar styling if needed */
   ul {
     display: flex;
     justify-content: center;
@@ -85,13 +83,14 @@ header {
     z-index: 10;
   }
 
-  h2#text {
+  h1#text {
     position: absolute;
     color: white;
     right: -350px;
     white-space: nowrap;
     font-size: 7vw;
     transform: translateY(0px);
+    font-family: 'Playfair', 'Display', serif;
   }
 
   #callToAction {
