@@ -1,0 +1,66 @@
+@include mediaMobile {
+  // Header
+  header {
+    padding: 0.5rem 2rem;
+    ul {
+      display: none;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+  }
+
+  // Parralax
+  .parallax-section {
+    h1#text {
+      font-size: 15vw;
+    }
+  }
+
+  // Projects
+  .item-info {
+    padding: 2rem;
+  }
+
+  // About
+  .about-container {
+    text-align: center;
+    h2 {
+      font-size: 7rem;
+      margin-top: 2rem;
+    }
+  }
+
+  .about {
+    gap: 2rem;
+  }
+
+  footer {
+    margin-top: 8rem;
+  }
+}
+
+@include mediaDesktop {
+  header {
+    padding: 30px 100px;
+  }
+
+  .parallax-section {
+    padding: 100px;
+    h1#text {
+      font-size: 7vw;
+    }
+  }
+
+  .item-info {
+    padding: 3rem 6rem 3rem 6rem;
+  }
+
+  .about {
+    gap: 5rem;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+}

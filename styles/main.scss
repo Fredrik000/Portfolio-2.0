@@ -1,5 +1,4 @@
 @import 'config';
-@import 'mobile';
 @import 'index';
 @import 'about';
 @import 'header';
@@ -34,3 +33,5 @@ h2 {
 
   @include easeOut;
 }
+
+@import 'mobile';

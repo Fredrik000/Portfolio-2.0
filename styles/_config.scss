@@ -8,3 +8,16 @@ $light-blue: #6279be;
 @mixin easeOut {
   transition: all 0.3s ease-out;
 }
+
+// Media Query Mixins
+@mixin mediaMobile {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mediaDesktop {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
